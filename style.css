@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+}
+
+.form-style {
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px 10px 10px 20px;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style label {
+    margin: 0 0 30 px;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+}
+
+.form-style .required {
+    color: red;
+}
+.form-style input[type=submit], .form-style input[type=reset]{
+    background: cornflowerblue;
+    padding: 8px 15px 8px 15px;
+}
+.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+    background:blue;
+    box-shadow: none;
+}
+.form-style .field-textarea{
+    height: 120px;
+}
+.form-style input[type=text], .form-style input[type=email],textarea{
+    box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0;
+    outline: none;
+}
+.field-textarea .long{
+    width: 100%;
+}
+
+.form-style input[type=text]:focus, .form-style input[type=email]:focus, .form-style textarea:focus{
+    box-shadow: 0 0 8px #88D5E9;
+    border: #88D5E9;
+                                                                                                                
+}
+.error{
+    color:#D8000C;
+    background: color #f8b;
+}
